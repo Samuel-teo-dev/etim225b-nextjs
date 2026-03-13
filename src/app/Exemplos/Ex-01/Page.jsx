@@ -1,4 +1,4 @@
-function exemplo(){
+function exemplo1(){
 
     return(
         <div>
@@ -7,3 +7,4 @@ function exemplo(){
         </div>
     )
 }
+export default exemplo1

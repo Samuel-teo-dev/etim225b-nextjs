@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-function Home() {
+function exemplo02() {
   return (
     <div className={styles.containerExemplo}>
       <h1>React com Next JS</h1>
@@ -18,4 +18,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default exemplo02;
