@@ -1,22 +1,21 @@
-import Link from "next/";
-
+import Link from "next/link";
 import styles from "./page.module.css";
 
 function Home() {
-  return (
-<div className={styles.containerHome}>
-  <Link href="/Exemplos/Ex-01">Exemplo 1</Link>
-<div className={styles.containerListas}>
-<h1>Exemplos</h1>
-</div>
-<div className={styles.containerListas}>
-  <h1>atividades</h1>
-</div>
-
-
-
-</div>
-  );
+    return  (
+        <div className={styles.containerHome}>
+        <div className={styles.containerListas}>
+            <h1>Exemplos</h1>
+            <Link href="/Exemplos/Ex-01">Exemplo 1</Link>
+            <Link href="/Exemplos/Ex-02"> Exemplo 2</Link> 
+            <Link href="/Exemplos/Ex-03"> Exemplo 3</Link> 
+             </div>
+           <div className={styles.containerListas}>
+                <h1>Atividades</h1>
+ <Link href="/Atividades/AT-01"> Atividade 1</Link> 
+    
+        </div>
+        </div>
+    );
 }
-
 export default Home;
