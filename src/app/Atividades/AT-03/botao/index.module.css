@@ -1,0 +1,9 @@
+.botao {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.menos {
+    background-color: #6779e0;
+}
